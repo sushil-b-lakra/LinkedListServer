@@ -20,7 +20,7 @@ func main() {
 	addnode(&nodeptr, createnode(40))
 	fmt.Println("After Adding Node:")
 	nodeptr.print()
-	fmt.Println("Sushil")
+	fmt.Println("Sushil Bimal Lakra")
 }
 
 func (list *MyNode) print() {
