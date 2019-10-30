@@ -44,7 +44,7 @@ func StartHttpServer() {
 	LinkedListRouter := NewLinkedListRouter()
 
 	httpserver := &http.Server{
-		Addr:           ":8090",
+		Addr:           ":8095",
 		Handler:        LinkedListRouter,
 		ReadTimeout:    10 * time.Second,
 		WriteTimeout:   10 * time.Second,

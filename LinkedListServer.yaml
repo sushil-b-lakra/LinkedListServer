@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: LinkedListServerPod
+spec:
+  containers:
+  - name: LinkedListServer
+    image: linkedlistserver-1.0
+    imagePullPolicy: IfNotPresent
+    command: [ "/bin/bash", "-c", "--" ]
+    args: [ "" ]
