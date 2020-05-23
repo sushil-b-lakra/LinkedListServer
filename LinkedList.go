@@ -16,7 +16,8 @@ var nodeptr *MyNode
 
 func InitializeLinkedList() {
 
-	addnode(&nodeptr, createnode("7", "Days of Week"))
+	fmt.Printf("Function for Initializaing a sample Linked List\n")
+        addnode(&nodeptr, createnode("7", "Days of Week"))
 	addnode(&nodeptr, createnode("64", "Boxes in Checker"))
 	addnode(&nodeptr, createnode("12", "Months of Year"))
 	addnode(&nodeptr, createnode("60", "Seconds in a Minute"))
