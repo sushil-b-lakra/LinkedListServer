@@ -34,7 +34,7 @@ func StartHttpClientCLI() {
 				case 4:
 					method = http.MethodPost
 				default:
-
+	                                fmt.Println("Incorrect Method")
 				}
 				break
 			}
