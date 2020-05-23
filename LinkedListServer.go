@@ -29,7 +29,9 @@ var LinkedListRoutes = []LinkedListRoute{
 
 func main() {
 
-	/* Initialize Linked List */
+	/* This is main function for Linked List Server Program */
+
+        /* Initialize Linked List */
 	InitializeLinkedList()
 
 	/* Initializaing Http Server in a separate Go Routine */
