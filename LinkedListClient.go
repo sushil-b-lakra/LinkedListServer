@@ -11,7 +11,7 @@ import (
 
 func StartHttpClientCLI() {
 	/* Code handler for HTTP */
-	fmt.Println("\nThis is a HTTP Client CLI!")
+	fmt.Printf("\nThis is a HTTP Client CLI!")
 	for true {
 		var URLString, MagicNum, MagicNumDesc, method string
 		var Method, BodyNeeded int
